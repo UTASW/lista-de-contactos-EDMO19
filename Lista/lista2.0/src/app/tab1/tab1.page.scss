@@ -1,0 +1,40 @@
+#container {
+  text-align: center;
+  width: 100%;
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container ion-button{
+  width: 100%;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+
+  ion-input[type=number]::-webkit-outer-spin-button,
+  ion-input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+ion-input[type=number] {
+
+  -moz-appearance:textfield;
+
+}
+
+.centrar{
+  text-align: center;
+}
